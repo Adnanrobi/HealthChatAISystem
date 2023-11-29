@@ -1,0 +1,71 @@
+.attachment-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.attachment-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+.attachment-item button {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 270px;
+}
+
+.attachment-item:hover {
+  background-color: #e0e0e0;
+}
+
+.download-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.description-container {
+  height: 200px;
+  overflow-y: auto;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.card-footer-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-button {
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+  cursor: pointer;
+}
+
+.footer-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.primary-footer-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.secondary-footer-button {
+  background-color: #f5f5f5;
+}

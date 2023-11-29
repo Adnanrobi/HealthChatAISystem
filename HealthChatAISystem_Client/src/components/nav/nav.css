@@ -1,0 +1,60 @@
+.nav {
+  max-width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 25px;
+  padding-top: 10px;
+  background-color: #a6a4a4;
+  position: relative;
+  height: 100vh;
+}
+
+.nav img {
+  display: block;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.nav__blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+.button-top {
+  order: -1;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-menu li:last-child {
+  border-bottom: none;
+}
+
+.logout-button {
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.logout-button:hover {
+  background-color: #ccc;
+}

@@ -1,0 +1,55 @@
+/* File Upload */
+.file-upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.file-limit-info {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.upload-file-name {
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.uploaded-file-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.uploaded-file-list li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.file-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.text-sm.font-bold {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+textarea,
+input {
+  width: 100%;
+}

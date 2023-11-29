@@ -1,0 +1,13 @@
+.tickets-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem 2rem;
+  height: calc(100vh - 4.1rem);
+  overflow-y: auto;
+}
+.ticket-card {
+  display: flex;
+  justify-content: center;
+}

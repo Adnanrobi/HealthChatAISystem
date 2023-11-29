@@ -1,0 +1,12 @@
+.followup-tickets-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    width: 54vw;
+    max-height: 60vh;
+    justify-content:space-around;
+    justify-items: stretch;
+    padding: 2rem 2rem;
+    overflow-y: auto;
+}
+  

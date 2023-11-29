@@ -1,0 +1,56 @@
+.ticketlist__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  padding: 0.5rem;
+}
+
+.Chat__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  padding: 0.5rem;
+}
+.sidebar {
+  width: 250px;
+  background-color: #f7f7f7;
+  height: calc(100vh - 60px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu > li {
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-menu > li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-menu > li.active {
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.sub-menu > li,
+.sub-menu > button {
+  width: 100%; /* Make buttons take up 100% width */
+  text-align: center; /* Center-align button text */
+  /* background-color: #f7f7f7; /* Add a background color */
+  /* transition: background-color 0.2s ease-in-out; /* Add a smooth hover effect */
+}
+
+.sub-menu > li:last-child,
+.sub-menu > button:last-child {
+  border-bottom: none;
+}

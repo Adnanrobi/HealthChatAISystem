@@ -1,0 +1,17 @@
+/venv
+
+# Ignore __pycache__ directories and files
+**/__pycache__/
+*.pyc
+**/*.pyc
+*.pyo
+
+db.sqlite3
+HealthChatAI-API.code-workspace
+ticket_files
+
+API/.env
+.env
+
+**/file_uploads/
+.vscode
